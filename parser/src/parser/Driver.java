@@ -32,7 +32,7 @@ public class Driver {
 	private static ArrayList<String> links = new ArrayList<String>();
 
 	public static void main(String[] args) {
-		database = new MySQLConnection("192.168.1.234", "charon", "marty1993");
+		database = new MySQLConnection("ip", "user", "pass");
 
 		//Setup connection to the database
 		if (database.establish()) {
